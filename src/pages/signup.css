@@ -1,0 +1,62 @@
+button {
+    cursor: pointer;
+}
+.container {
+    background-color: #F7FAFC;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.signup-container {
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 900;
+    padding: 16px 0;
+    margin-bottom: 24px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+label {
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+input {
+    border: 1px solid #eee;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+input:focus {
+    outline-color: #48BB78;
+}
+
+button {
+    background-color: #48BB78;
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 40px 0 16px 0;
+}
+button:hover {
+    background-color: #3bb36d;
+}
