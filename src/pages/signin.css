@@ -1,0 +1,104 @@
+button {
+    cursor: pointer;
+}
+.container {
+    background-color: #F7FAFC;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.signin-container {
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 900;
+    padding: 16px 0;
+    margin-bottom: 24px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+input {
+    border: 1px solid #eee;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+input:focus {
+    outline-color: #48BB78;
+}
+button[type="submit"] {
+    background-color: #48BB78;
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+button[type="submit"]:hover {
+    background-color: #3bb36d;
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 8px 0;
+    font-size: 12px;
+}
+.links-container a:any-link {
+    color: #555;
+    text-decoration: none;
+}
+
+.devider {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.devider span {
+    width: 50px;
+    font-size: 12px;
+    color: #aaa;
+    margin: 32px 20px;
+}
+.devider-border {
+    border: 0.5px solid #eee;
+    width: 100%;
+}
+
+
+.social-login-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+}
+.social-login-buttons button {
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.bg-kakao {
+    background-color: #FEE500;
+}
+.bg-naver {
+    background-color: #1EC800;
+    color: #ffffff;
+}
