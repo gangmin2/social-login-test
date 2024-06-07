@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+.header-logo {
+    font-size: 32px;
+    font-weight: 900;
+}
+.header-buttons {
+    display: flex;
+    gap: 16px
+}
+.header-buttons button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.primary-button {
+    background-color: #48BB78;
+    color: #ffffff;
+}
+.secondary-button {
+    border: 1px solid #48BB78;
+    color: #48BB78;
+    background-color: #ffffff;
+}
+
+main {
+    display: flex;
+    background-color: #48BB78;
+    height: 500px;
+    align-items: center;
+}
+footer {
+    background-color: #eee;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+}
+.main-box {
+    padding: 32px;
+    font-size: 44px;
+    font-weight: bold;
+}
+.f-1 {
+    flex-grow: 1;
+    text-align: right;
+}
+.f-3 {
+    flex-grow: 2.5;
+}
