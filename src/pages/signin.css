@@ -102,3 +102,10 @@ button[type="submit"]:hover {
     background-color: #1EC800;
     color: #ffffff;
 }
+
+.error {
+    color: tomato;
+    font-size: 12px;
+    align-self: flex-start;
+    margin-top: 8px;
+}

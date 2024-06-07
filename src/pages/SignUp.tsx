@@ -1,5 +1,6 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 import './signup.css';
+import { useNavigate } from 'react-router-dom';
 
 const SignUp: React.FC = () => {
     const [id, setId] = useState<string>('');
@@ -7,6 +8,7 @@ const SignUp: React.FC = () => {
     const [pw, setPw] = useState<string>('');
     const [confirmPw, setConfirmPw] = useState<string>('');
     const [error, setError] = useState<string>('');
+    const nav = useNavigate();
 
     const onIdChangeHandler = (e: ChangeEvent<HTMLInputElement>) => {
         setId(e.target.value);
@@ -36,6 +38,7 @@ const SignUp: React.FC = () => {
         }
         console.log('회원가입 정보:', { id, nickname, pw });
         setError('');
+        nav('/');
     }
 
     return (
