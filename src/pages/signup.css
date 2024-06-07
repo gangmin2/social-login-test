@@ -60,3 +60,8 @@ input:focus {
 .signup-button:hover {
     background-color: #3bb36d;
 }
+
+.error {
+    color: tomato;
+    font-size: 12px;
+}
