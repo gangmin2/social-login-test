@@ -23,7 +23,7 @@ const SignIn = () => {
     }
 
     const onClickSocialButton = (path:string) => {
-        nav('authorized' + path);
+        nav('/api/oauth2/authorization' + path);
     } 
     return (
         <>
@@ -48,6 +48,7 @@ const SignIn = () => {
                     <div className='social-login-buttons'>
                         <button onClick={() => onClickSocialButton('/kakao')} className='bg-kakao'>카카오계정으로 로그인</button>
                         <button onClick={() => onClickSocialButton('/naver')} className='bg-naver'>네이버로 로그인</button>
+                        <button onClick={() => onClickSocialButton('/google')} className='bg-google'>구글로 로그인</button>
                     </div>
                 </div>
             </div>
